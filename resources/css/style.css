@@ -12,13 +12,15 @@ Orange color: #e67e22
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: white;
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden; /* text won't overflow -> disables horizontal scroll on small screens */
 }
 
 .clearfix {
@@ -336,8 +338,12 @@ a:active {
   margin-right: 25px;
 }
 
+.works-step p {
+  padding-top: 2px;
+}
+
 .btn-app:link,
-btn-app:visited {
+.btn-app:visited {
   border: 0;
 }
 
