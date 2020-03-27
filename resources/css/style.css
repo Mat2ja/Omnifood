@@ -273,8 +273,8 @@ header {
 	left: 0;
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 2px 2px #efefef; /* X-axis. Y-axis, blur, color */
-  z-index: 9999; /* this element will be on top of all other bcs it has the highest value */
+	box-shadow: 0 2px 2px #efefef; /* X-axis. Y-axis, blur, color */
+	z-index: 9999; /* this element will be on top of all other bcs it has the highest value */
 }
 
 .sticky .main-nav {
@@ -675,4 +675,28 @@ footer p {
 	color: #888;
 	text-align: center;
 	margin-top: 20px;
+}
+
+/* ----------------------------------------- */
+/* ANIMATIONS */
+/* ----------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+	opacity: 0;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+.js--wp-4 {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+/* at the same time */
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+	opacity: 1;
 }
