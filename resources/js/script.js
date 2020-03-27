@@ -93,7 +93,7 @@ $(document).ready(function () {
         var icon_new = $('.js--nav-icon ion-icon');
 
         nav.slideToggle(200);
-        if (icon.hasClass('ion-navicon-round') || icon_new.attr('name')=='menu'){
+        if (icon.hasClass('ion-navicon-round') || icon_new.attr('name') == 'menu') {
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');
             //icon.attr('class', 'ion-close-round'); /* another method */
@@ -104,7 +104,7 @@ $(document).ready(function () {
             //icon.attr('class', 'ion-navicon-round'); /* another method */
             icon_new.attr('name', 'menu'); /* my method for new ionicons */
 
-            
+
         }
     })
 
