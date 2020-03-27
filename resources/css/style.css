@@ -204,9 +204,9 @@ header {
 			from(rgba(0, 0, 0, 0.7)),
 			to(rgba(0, 0, 0, 0.7))
 		),
-		url(img/hero.jpg);
+		url(img/hero-min.jpg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-		url(img/hero.jpg);
+		url(img/hero-min.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -434,7 +434,7 @@ header {
 .box img {
 	width: 100%;
 	height: auto;
-	margin-bottom: 15px;
+	margin-bottom: 15px; 
 }
 
 .city-feature {
@@ -453,9 +453,9 @@ header {
 			from(rgba(0, 0, 0, 0.8)),
 			to(rgba(0, 0, 0, 0.8))
 		),
-		url(img/back-customers.jpg);
+		url(img/back-customers-min.jpg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-		url(img/back-customers.jpg);
+		url(img/back-customers-min.jpg);
 	background-size: cover;
 	color: white;
 	background-attachment: fixed;
