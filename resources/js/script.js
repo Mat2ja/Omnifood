@@ -65,25 +65,47 @@ $(document).ready(function () {
 
 
     /* Aniamtion on scroll */
-    $('.js--wp-1').waypoint(function(direction) {
+    $('.js--wp-1').waypoint(function (direction) {
         $('.js--wp-1').addClass('animated fadeIn');
     }, {
         offset: '50%'
-    }) 
-    $('.js--wp-2').waypoint(function(direction) {
+    })
+    $('.js--wp-2').waypoint(function (direction) {
         $('.js--wp-2').addClass('animated fadeInUp');
     }, {
         offset: '50%'
-    }) 
-    $('.js--wp-3').waypoint(function(direction) {
+    })
+    $('.js--wp-3').waypoint(function (direction) {
         $('.js--wp-3').addClass('animated fadeIn');
     }, {
         offset: '50%'
-    }) 
-    $('.js--wp-4').waypoint(function(direction) {
+    })
+    $('.js--wp-4').waypoint(function (direction) {
         $('.js--wp-4').addClass('animated pulse');
     }, {
         offset: '50%'
-    }) 
+    })
+
+    /* Mobile nav */
+    $('.js--nav-icon').click(function () {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+        var icon_new = $('.js--nav-icon ion-icon');
+
+        nav.slideToggle(200);
+        if (icon.hasClass('ion-navicon-round') || icon_new.attr('name')=='menu'){
+            icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon-round');
+            //icon.attr('class', 'ion-close-round'); /* another method */
+            icon_new.attr('name', 'close'); /* my method for new ionicons */
+        } else {
+            icon.addClass('ion-navicon-round');
+            icon.removeClass('ion-close-round');
+            //icon.attr('class', 'ion-navicon-round'); /* another method */
+            icon_new.attr('name', 'menu'); /* my method for new ionicons */
+
+            
+        }
+    })
 
 });
