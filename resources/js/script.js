@@ -103,9 +103,24 @@ $(document).ready(function () {
             icon.removeClass('ion-close-round');
             //icon.attr('class', 'ion-navicon-round'); /* another method */
             icon_new.attr('name', 'menu'); /* my method for new ionicons */
-
-
         }
     })
 
+    /* Maps */
+    var map = new GMaps({
+        div: '.map',
+        lat: 38.722398,
+        lng: -9.0,
+        zoom: 12 /* inital is 15  */
+    });
+
+    map.addMarker({
+        lat: 38.722398,
+        lng: -9.1307226,
+        title: 'Lisbon',
+        infoWindow: {
+            content: '<p>Our Lisbon HQ</p>'
+        }
+    });
 });
+
