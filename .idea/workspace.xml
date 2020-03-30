@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35739f3f-de69-4c6e-834c-cab737d944fa" name="Default Changelist" comment="" />
+    <list default="true" id="35739f3f-de69-4c6e-834c-cab737d944fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Omnifood/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585249286123</updated>
       <workItem from="1585249289373" duration="20000" />
+      <workItem from="1585509856282" duration="49000" />
     </task>
     <servers />
   </component>
@@ -43,9 +57,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1585249289941">
+    <state x="163" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1585509857016">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="163" y="364" key="com.intellij.ide.util.TipDialog/-1920.322.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1585509857016" />
     <state x="163" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585249289941" />
   </component>
 </project>

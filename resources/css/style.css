@@ -23,11 +23,15 @@ body {
 	zoom: 1;
 }
 .clearfix:after {
-	content: ".";
+	content: ".";	
 	clear: both;
 	display: block;
 	height: 0;
 	visibility: hidden;
+}
+
+::selection {
+  background: #ffddbe; /* WebKit/Blink Browsers */
 }
 
 /* ----------------------------------------- */
